@@ -44,6 +44,9 @@ sr.reveal('.about__img',{});
 sr.reveal('.about__subtitle',{delay: 400}); 
 sr.reveal('.about__text',{delay: 400}); 
 
+/*SCROLL EDUCATION*/
+sr.reveal('.education__container',{}); 
+
 /*SCROLL SKILLS*/
 sr.reveal('.skills__subtitle',{}); 
 sr.reveal('.skills__text',{}); 
@@ -57,5 +60,27 @@ sr.reveal('.work__img',{interval: 200});
 sr.reveal('.contact__input',{interval: 200}); 
 
 
+/*===== Hide show funcs =====*/
+
+function hs_func(id1,id2) {
+    var x = document.getElementById(id1);
+    if (x.style.display === "none") {
+      x.style.display = "grid";
+    } else {
+      x.style.display = "none";
+    }
+  
+    if (id2){
+        var x = document.getElementById(id2);
+        if (x.style.display === "none") {
+        x.style.display = "grid";
+        } else {
+        x.style.display = "none";
+        }
+    }
+  }
 
 
+  hs_func("education__2");
+  hs_func("education__3");
+//   hs_func("")
