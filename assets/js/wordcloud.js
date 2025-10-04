@@ -33,7 +33,7 @@ var option = {
         },
         data: [
             {
-                name: 'Machine Learning',
+                name: 'GenAI',
                 value: 10000,
                 textStyle: {
                     normal: {
@@ -45,200 +45,212 @@ var option = {
                 }
             },
             {
-                name: 'Deep Learning',
-                value: 6181
+                name: 'LLMs',
+                value: 8000
             },
             {
-                name: 'Computer Vision',
-                value: 4386
+                name: 'RAG',
+                value: 6500
             },
             {
-                name: 'Artificial Intelligence',
-                value: 4055
+                name: 'Machine Learning',
+                value: 6000
             },
             {
-                name: 'Neural Network',
+                name: 'Claude',
+                value: 4500
+            },
+            {
+                name: 'Fine-tuning',
+                value: 4000
+            },
+            {
+                name: 'LangGraph',
                 value: 3500
             },
             {
-                name: 'Algorithm',
-                value: 3333
+                name: 'Computer Vision',
+                value: 3200
             },
             {
-                name: 'Model',
-                value: 2700
+                name: 'Transformers',
+                value: 2800
             },
             {
-                name: 'Supervised',
+                name: 'PyTorch',
                 value: 2500
             },
             {
-                name: 'Unsupervised',
-                value: 2333
+                name: 'Prompt Engineering',
+                value: 2200
             },
             {
-                name: 'Natural Language Processing',
-                value: 1900
+                name: 'AWS Bedrock',
+                value: 2000
             },
             {
-                name: 'Chatbot',
+                name: 'Agentic AI',
                 value: 1800
             },
             {
-                name: 'Virtual Assistant',
+                name: 'Multi-modal',
+                value: 1600
+            },
+            {
+                name: 'LoRA',
                 value: 1500
             },
             {
-                name: 'Speech Recognition',
+                name: 'GPT-4',
                 value: 1400
             },
             {
-                name: 'Convolutional Neural Network',
-                value: 1325
-            },
-            {
-                name: 'Reinforcement Learning',
+                name: 'Embeddings',
                 value: 1300
             },
             {
-                name: 'Training Data',
-                value: 1250
+                name: 'Mistral',
+                value: 1200
             },
             {
-                name: 'Classification',
-                value: 1233
+                name: 'HuggingFace',
+                value: 1100
             },
             {
-                name: 'Regression',
+                name: 'PEFT',
                 value: 1000
             },
             {
-                name: 'Decision Tree',
+                name: 'Deep Learning',
+                value: 950
+            },
+            {
+                name: 'Automotive AI',
                 value: 900
             },
             {
-                name: 'K-Means',
-                value: 875
-            },
-            {
-                name: 'N-Gram Analysis',
+                name: 'Production ML',
                 value: 850
             },
             {
-                name: 'Microservices',
-                value: 833
+                name: 'Edge Deployment',
+                value: 800
             },
             {
-                name: 'Pattern Recognition',
-                value: 790
+                name: 'Semantic Search',
+                value: 750
             },
             {
-                name: 'APIs',
-                value: 775
-            },
-            {
-                name: 'Feature Engineering',
+                name: 'Query Decomposition',
                 value: 700
             },
             {
-                name: 'Random Forest',
+                name: 'Function Calling',
                 value: 650
             },
             {
-                name: 'Bagging',
+                name: 'Document Retrieval',
                 value: 600
             },
             {
-                name: 'Anomaly Detection',
-                value: 575
+                name: 'Speech AI',
+                value: 550
             },
             {
-                name: 'Naive Bayes',
+                name: 'Neural Networks',
                 value: 500
             },
             {
-                name: 'Autoencoder',
+                name: 'LSTM',
+                value: 480
+            },
+            {
+                name: 'Time-Series',
+                value: 450
+            },
+            {
+                name: 'Pose Estimation',
+                value: 420
+            },
+            {
+                name: 'GANs',
                 value: 400
             },
             {
-                name: 'Backpropagation',
+                name: 'Python',
+                value: 380
+            },
+            {
+                name: 'Docker',
+                value: 350
+            },
+            {
+                name: 'Flask',
+                value: 330
+            },
+            {
+                name: 'Airflow',
+                value: 310
+            },
+            {
+                name: 'OpenCV',
                 value: 300
             },
             {
-                name: 'TensorFlow',
-                value: 290
-            },
-            {
-                name: 'word2vec',
+                name: 'MLOps',
                 value: 280
             },
             {
-                name: 'Object Recognition',
-                value: 250
+                name: 'CI/CD',
+                value: 260
             },
             {
-                name: 'Python',
-                value: 235
+                name: 'Redis',
+                value: 240
             },
             {
-                name: 'Predictive Analytics',
-                value: 225
+                name: 'REST API',
+                value: 220
             },
             {
-                name: 'Predictive Modeling',
-                value: 215
-            },
-            {
-                name: 'Optical Character Recognition',
+                name: 'Quantization',
                 value: 200
             },
             {
-                name: 'Overfitting',
-                value: 190
-            },
-            {
-                name: 'JavaScript',
-                value: 185
-            },
-            {
-                name: 'Text Analytics',
+                name: 'Model Deployment',
                 value: 180
             },
             {
-                name: 'Cognitive Computing',
-                value: 175
-            },
-            {
-                name: 'Augmented Intelligence',
+                name: 'NLP',
                 value: 160
             },
             {
-                name: 'Statistical Models',
-                value: 155
-            },
-            {
-                name: 'Clustering',
+                name: 'Anomaly Detection',
                 value: 150
             },
             {
-                name: 'Topic Modeling',
-                value: 145
+                name: 'Prophet',
+                value: 130
             },
             {
-                name: 'Data Mining',
-                value: 140
+                name: 'scikit-learn',
+                value: 120
             },
             {
-                name: 'Data Science',
-                value: 138
+                name: 'SQL',
+                value: 100
             },
             {
-                name: 'Semi-Supervised Learning',
-                value: 137
+                name: 'C++',
+                value: 90
             },
             {
-                name: 'Artificial Neural Networks',
-                value: 125
+                name: 'GitLab',
+                value: 80
+            },
+            {
+                name: 'Data Pipelines',
+                value: 70
             }
         ]
     } ]
