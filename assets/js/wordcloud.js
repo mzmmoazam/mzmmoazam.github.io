@@ -239,18 +239,6 @@ var option = {
             {
                 name: 'SQL',
                 value: 100
-            },
-            {
-                name: 'C++',
-                value: 90
-            },
-            {
-                name: 'GitLab',
-                value: 80
-            },
-            {
-                name: 'Data Pipelines',
-                value: 70
             }
         ]
     } ]
